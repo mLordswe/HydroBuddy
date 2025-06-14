@@ -22,11 +22,18 @@ export default function TabLayout() {
 				}}
 			/>
 			<Tabs.Screen
-				name="explore"
+				name="HistoryScreen"
 				options={{
-					title: "Explore",
+					title: "Summary",
+				}}
+			/>
+			<Tabs.Screen
+				name="SettingsScreen"
+				options={{
+					title: "Settings",
 				}}
 			/>
 		</Tabs>
 	);
 }
+//todo add icons to tabs
